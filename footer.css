@@ -1,0 +1,52 @@
+.footer {
+    margin-top: 10px;
+    padding: 4px 10px;
+    margin-bottom: 50px;
+    
+}
+
+.project_contact_text {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 27px;
+    color: #f0e7e7;
+}
+
+.contacts_blok {
+    display: flex;
+    column-gap: 17px;
+}
+
+.contact_telegram, .contact_whatsapp, 
+.contact_mail {
+    width: 717px;
+    padding: 15px 30px;
+    margin: 20px auto;
+    font-size: 30px;
+    text-align: center;
+    background-color: #1c1c1a;;
+    border-radius: 31px;
+    margin-bottom: 35px;
+}
+
+.telegram_link, .whatsapp_link, .mail_link  {
+    color: #f0e7e7;
+    text-decoration: none;
+} 
+
+.copyright{
+    text-align: center;
+    font-size: 16px;
+    padding: 15px;
+    color: aliceblue
+}
+
+@media(max-width: 1199px) {
+    .footer {
+        width: 100%;
+    }
+
+    .contacts_blok {
+        display: block;
+    }
+}

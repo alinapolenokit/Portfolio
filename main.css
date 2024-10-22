@@ -1,0 +1,25 @@
+.main_screen {
+    height: 765px;
+    margin: 16px 36px 22px 26px;
+    background-image: url(/img/Главная.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+} 
+.main_screen_description {
+    position: absolute;
+    font-size: 66px;
+    padding-top: 536px;
+    line-height: 75px;
+    color: #f0e7e7;
+    text-shadow: #222406 2px 13px 3px;
+} 
+
+.main_screen_title {
+    font-size: 66px;
+    padding-top: 623px;
+    line-height: 75px;
+    color: #f0e7e7;
+    text-shadow: #222406 2px 13px 3px;
+}
