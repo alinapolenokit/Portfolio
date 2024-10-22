@@ -1,7 +1,7 @@
 .main_screen {
     height: 765px;
     margin: 16px 36px 22px 26px;
-    background-image: url(/img/Главная.jpg);
+    background-image: url(./img/Главная.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
